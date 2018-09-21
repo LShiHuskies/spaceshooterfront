@@ -1075,7 +1075,7 @@ class World extends Component {
                   body:JSON.stringify(body)
                   }
               if (this.state.shipStatus < 2){
-                fetch('http://localhost:4000/games', config).then(r => r.json()).then(console.log)
+                fetch('https://space-shooter-api.herokuapp.com//games', config).then(r => r.json()).then(console.log)
               } 
             }
           })
