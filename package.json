@@ -11,7 +11,10 @@
     "react-keydown": "^1.9.7",
     "react-scripts": "1.1.5",
     "debug": "^2.6.8",
-    "pkg-dir": "^2.0.0"
+    "pkg-dir": "^2.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-strongloop": "^2.1.0",
+    "eslint-loader": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,6 +28,7 @@
   },
   "devDependencies": {
     "eslint": "^4.19.1",
-    "eslint-config-strongloop": "^2.1.0"
+    "eslint-config-strongloop": "^2.1.0",
+    "eslint-loader": "^2.1.1"
   }
 }
