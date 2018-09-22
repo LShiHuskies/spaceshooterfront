@@ -14,4 +14,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
+
 }
+
+{ "root": "build/", "routes": { "/**": "index.html" } }
