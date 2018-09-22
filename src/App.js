@@ -129,3 +129,37 @@ class App extends Component {
 }
 
 export default App;
+
+
+/* {
+  "name": "spaceshooterfront",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "0.9.1",
+    "eslint": "^4.13.1",
+    "npm": "^6.4.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-keydown": "^1.9.7",
+    "react-scripts": "1.1.5",
+    "debug": "^2.6.8",
+    "pkg-dir": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": "7.8.0",
+    "npm": "4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-strongloop": "^2.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0"
+  }
+} */
