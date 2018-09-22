@@ -10,7 +10,9 @@
     "react-dom": "^16.5.2",
     "react-keydown": "^1.9.7",
     "react-scripts": "1.1.5",
-    "eslint": "^4.13.1"
+    "eslint": "^4.13.1",
+    "debug": "^2.6.8",
+    "pkg-dir": "^2.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
