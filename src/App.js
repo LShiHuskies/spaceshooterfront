@@ -40,7 +40,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("https://space-shooter-api.herokuapp.com//users").then(r => r.json()).then(data => this.setState({
+    fetch("https://space-shooter-api.herokuapp.com/users").then(r => r.json()).then(data => this.setState({
       allUsers: data
     })
     )
@@ -81,7 +81,7 @@ class App extends Component {
   }
 
   handleClick = (event) => {
-    fetch("https://space-shooter-api.herokuapp.com//games").then(r => r.json()).then(data => this.filterGames(data))
+    fetch("https://space-shooter-api.herokuapp.com/games").then(r => r.json()).then(data => this.filterGames(data))
 
   }
 
@@ -107,14 +107,14 @@ class App extends Component {
               },
       body:JSON.stringify(body)
       }
-      fetch("https://space-shooter-api.herokuapp.com//users", config).then(r => r.json()).then(data => this.setState({loggedIn: true, currentUser: data }))
+      fetch("https://space-shooter-api.herokuapp.com/users", config).then(r => r.json()).then(data => this.setState({loggedIn: true, currentUser: data }))
     }
 
   }
 
   handleSubmit = (event) => {
     event.preventDefault()
-    fetch("https://space-shooter-api.herokuapp.com//users").then(r=> r.json()).then(data => this.getUsers(data))
+    fetch("https://space-shooter-api.herokuapp.com/users").then(r=> r.json()).then(data => this.getUsers(data))
   }
 
   render() {
